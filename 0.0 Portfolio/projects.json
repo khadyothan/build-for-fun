@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Geographical Information Query System",
+    "topic": "Data Mining",
+    "responsibilities": [
+      "Developed an end-to-end language-driven agent utilizing open-source large language models (LLMs) and Google Maps API to dynamically handle spoken user queries in real-time mobility contexts; implemented using React, Django and LangChain",
+      "Implemented a RAG token model and conducted comparative performance analyses of open-source GPT variants, focusing on optimizing responses in travel-specific scenarios."
+    ]
+  },
+
+  {
+    "title": "PlayBack",
+    "topic": "Web Services & Backend",
+    "responsibilities": [
+      "Collaborated with 5-member group and developed a comprehensive full-stack film community website, integrating features of blog search, video streaming, film library, and reviews; used React for frontend, Node JS for backend and NoSQL database.",
+      "Created a data pipeline for processing and analysing student progress, queries and test scores, automating classification and forwarding student profiles to mentors, saving significant manual time.",
+      "Designed and implemented a robust RESTful API from scratch, leveraging GraphQL and Swagger to enhance API functionality and interactivity."
+    ]
+  },
+
+  {
+    "title": "CollabTree",
+    "topic": "Web Application Development",
+    "responsibilities": [
+      "Led a team to build a full-stack freelancing website with blog sharing; includes features of job search, blogging profile, and private messaging. Built using Django, Bootstrap, SQL database and WebSocket for messaging."
+    ]
+  }
+]

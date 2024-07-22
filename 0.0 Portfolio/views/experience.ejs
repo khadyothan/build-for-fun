@@ -10,12 +10,31 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <%- include('header') %>
-    <div>
-      <h1>EXPERIENCE</h1>
+    <%- include('header') %> <% experiences.forEach((obj) => { %>
+    <div
+      class="experience-container max-w-4xl m-auto mb-5 p-6 bg-white border border-blue-300 rounded-lg shadow hover:bg-gray-50"
+    >
+      <h5
+        class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+      >
+        <%= obj.role %>
+      </h5>
+      <h6
+        class="mb-2 text-lg font-bold tracking-tight text-gray-600 dark:text-white"
+      >
+        <%= obj.company %>
+      </h6>
+      <ul class="list-disc pl-5 space-y-1 font-normal text-gray-700">
+        <% obj.responsibilities.forEach((task) => { %>
+        <li>
+          <p><%= task %></p>
+        </li>
+        <% }) %>
+      </ul>
     </div>
-    <%- include('footer') %>
+    <% }) %> <%- include('footer') %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="/index.js"></script>
   </body>

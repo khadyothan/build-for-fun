@@ -1,4 +1,5 @@
 import express from "express";
+import fs from "fs";
 
 const app = express();
 const port = 3000;
@@ -15,11 +16,19 @@ app.get("/story", (req, res) => {
 });
 
 app.get("/experience", (req, res) => {
-  res.render("experience");
+  fs.readFile("experiences.json", "utf-8", (err, data) => {
+    if (err) throw err;
+    const experiences = JSON.parse(data);
+    res.render("experience", { experiences });
+  });
 });
 
 app.get("/projects", (req, res) => {
-  res.render("projects");
+  fs.readFile("projects.json", "utf-8", (err, data) => {
+    if (err) throw err;
+    const projects = JSON.parse(data);
+    res.render("projects", { projects });
+  });
 });
 
 app.listen(port, () => {

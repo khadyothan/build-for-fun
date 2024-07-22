@@ -1,0 +1,30 @@
+[
+  {
+    "role": "Software Engineer Intern",
+    "company": "MedCuore Medical Solutions Private Limited",
+    "responsibilities": [
+      "Created custom dashboards using Django, React.js and SQL database to identify patterns and support decision making in human health control by leveraging the Air Quality (AQI) metrics, enhancing data driven strategies.",
+      "Deployed state-of-the-art ML models for time series forecasting as a service using AWS cloud IaaS resources, including EC2 for deployment, S3 for storage, and SQS for Autoscaling.",
+      "Built REST API's and business logic pipelines for automation of real-time IoT sensor data monitoring, coupled with data visualization for clients using D3 JS increasing revenue by 22%."
+    ]
+  },
+
+  {
+    "role": "Software Engineer Intern",
+    "company": "Pianalytix Edutech",
+    "responsibilities": [
+      "Developed custom user interfaces and tracking systems for Web educational tool, enhancing user experience and improving student engagement by 25%.",
+      "Created a data pipeline for processing and analysing student progress, queries and test scores, automating classification and forwarding student profiles to mentors, saving significant manual time.",
+      "Used AWS for scalable and secure video storage solutions, utilizing S3 buckets for storage and Lambda for processing video uploads.",
+      "Ideated & led a team to publish learning documentations for React, Node and Rest APIs for future employees."
+    ]
+  },
+
+  {
+    "role": "Research Intern",
+    "company": "Artificial Intelligence Institute of South Carolina",
+    "responsibilities": [
+      "Exploring watermarking techniques in Generative AI to detect AI generated content. Performed experiments with various watermarking techniques by identifying non-melting points, leveraging sampling methods to replace high entropy words."
+    ]
+  }
+]
